@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: jenkins_assignment
-        image: public.ecr.aws/n3c9v2o9/jenkins_assignment
+        image: public.ecr.aws/n3c9v2o9/jenkins_assignment:latest
         ports:
         - containerPort: 8080
